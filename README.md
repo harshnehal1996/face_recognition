@@ -3,7 +3,7 @@
 	2) Initialized model weights with different model trained on caspia-webface dataset 
 
 ![Training data](https://drive.google.com/file/d/12_WTFi9ppvD-loaWUWpUar25Z3nT5k9P/view)          
-![trained model weights](https://drive.google.com/file/d/12_WTFi9ppvD-loaWUWpUar25Z3nT5k9P/view)
+![trained model weights](https://drive.google.com/file/d/1c7Ke4INWqSS6oRX3rKxIeAj8zB07QpnW/view?usp=sharing)
 
 # How to setup
 	1) clone this directory
