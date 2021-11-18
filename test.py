@@ -214,14 +214,12 @@ def load_model(model, checkpoint_path):
     
     checkpoint = torch.load(checkpoint_path, map_location=device)
     model.load_state_dict(checkpoint['model_state_dict'])
-    
-    print('loaded model with %d epoch' % checkpoint['epoch'])
 
 
 def main():
 	root_path = os.getcwd()
 	data_path = os.path.join(root_path, 'trainset')
-	model_path = os.path.join(root_path, 'model_weights/checkpoint_8.pth')
+	model_path = os.path.join(root_path, 'model_weights/checkpoint.pth')
 	index_path = os.path.join(root_path , 'model_weights/index')
 
 	parser = argparse.ArgumentParser(description='test script')

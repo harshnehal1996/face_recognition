@@ -1,11 +1,14 @@
 # face_recognition
 	1) Used InceptionResnetV1 model with triplet loss
-	2) Training data used : [here](https://drive.google.com/file/d/12_WTFi9ppvD-loaWUWpUar25Z3nT5k9P/view)
+	2) Initialized model weights with different model trained on caspia-webface dataset 
+
+![Training data](https://drive.google.com/file/d/12_WTFi9ppvD-loaWUWpUar25Z3nT5k9P/view)          
+![trained model weights](https://drive.google.com/file/d/12_WTFi9ppvD-loaWUWpUar25Z3nT5k9P/view)
 
 # How to setup
 	1) clone this directory
 	2) install dependencies from requirements.txt
-	3) download pretrained model from [here](https://drive.google.com)
+	3) download pretrained model from above link
 	4) unzip the file in the main project folder
 
 # Testing for two Images
@@ -33,6 +36,6 @@
 	4) run the following command:
 		$python3 test.py --gpu --benchmark --model_path <model path>
 
-Performance on validation data
+Performance on validation data(green is trained model)
 
 ![Alt text](images/performance.png "TPR vs FPR curve after 70 epoch")

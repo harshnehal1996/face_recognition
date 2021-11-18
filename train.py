@@ -365,12 +365,11 @@ def main():
         model.load_state_dict(checkpoint['model_state_dict'])
         optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
         scheduler.load_state_dict(checkpoint['scheduler_state_dict'])
-        print('resuming from %d epoch' % checkpoint['epoch'])
 
         return checkpoint['epoch'], checkpoint['grad_step']
 
     weight_path = root_path + '20180408-102900-casia-webface.pt'
-    model_path = os.path.join(model_save_path, 'checkpoint_8.pth')
+    model_path = os.path.join(model_save_path, 'checkpoint.pth')
     parser = argparse.ArgumentParser(description='train script')
     parser.add_argument('--pretrained', default=False, action='store_true')
     parser.add_argument('--checkpoint', default=False, action='store_true')
