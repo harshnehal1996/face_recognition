@@ -1,6 +1,6 @@
 # face_recognition
 	1) Used InceptionResnetV1 model with triplet loss
-	2) Training data used : [here](https://drive.google.com/file/d/12_WTFi9ppvD-loaWUWpUar25Z3nT5k9P/view)
+	2) Training data used : ![a link](https://drive.google.com/file/d/12_WTFi9ppvD-loaWUWpUar25Z3nT5k9P/view)
 
 # How to setup
 	1) clone this directory
