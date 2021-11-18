@@ -269,8 +269,8 @@ def main():
 	    axs.plot(x, y, color='green')
 	    axs.plot(np.arange(0,1.01,1), color='red')
 	    plt.ylabel('true positive rate')
-	    plt.xlabel('false positive rate')	
-    else:
+	    plt.xlabel('false positive rate')
+	else:
 		mtcnn = MTCNN(image_size=200, min_face_size=20, thresholds=[0.6, 0.7, 0.7], factor=0.709, post_process=True, keep_all=False, device=device)
 		score = compare_and_score(model, read_image(mtcnn, args.image_path[0]), read_image(mtcnn, args.image_path[1]))
 		score = (score + 1) / 2
