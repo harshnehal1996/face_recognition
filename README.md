@@ -2,7 +2,7 @@
 	1) Used InceptionResnetV1 model with triplet loss
 	2) Initialized model weights with different model trained on caspia-webface dataset 
 
-![Training data](https://drive.google.com/file/d/12_WTFi9ppvD-loaWUWpUar25Z3nT5k9P/view)
+![Training data](https://drive.google.com/file/d/12_WTFi9ppvD-loaWUWpUar25Z3nT5k9P/view)          
 ![trained model weights](https://drive.google.com/file/d/12_WTFi9ppvD-loaWUWpUar25Z3nT5k9P/view)
 
 # How to setup
