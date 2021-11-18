@@ -36,6 +36,6 @@
 	4) run the following command:
 		$python3 test.py --gpu --benchmark --model_path <model path>
 
-Performance on validation data
+Performance on validation data(green is trained model)
 
 ![Alt text](images/performance.png "TPR vs FPR curve after 70 epoch")
